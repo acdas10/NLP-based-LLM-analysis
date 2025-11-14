@@ -1,6 +1,6 @@
 # NLP-Based LLM Analysis
 
-# Overview
+## Overview
 
 This repository contains the code and analysis data for the research paper "An NLP-Based Evaluation of LLM Across Creativity, Factual Accuracy, Open-Ended and Technical Explanations".
 
@@ -31,7 +31,7 @@ Final_llm.ipynb
 
 The consolidated analysis file containing the final statistical evaluations, including ANOVA (F-tests) and Tukey HSD post-hoc tests, along with final visualizations (Boxplots, Pair plots).
 
-Methodology
+## Methodology
 
 Models Evaluated
 
@@ -41,7 +41,7 @@ DeepSeek R1 (DeepSeek AI)
 
 Gemini (Google DeepMind)
 
-Evaluation Metrics
+## Evaluation Metrics
 
 The repository implements various NLP techniques to score model responses:
 
@@ -55,7 +55,7 @@ Sentiment Analysis: Polarity scores determined using TextBlob.
 
 Grammatical Correctness: Error counts assessed using Language Tool.
 
-Statistical Analysis
+## Statistical Analysis
 
 To determine if performance differences were statistically significant, the project utilizes:
 
@@ -63,7 +63,7 @@ One-way ANOVA (F-test) ($p < 0.05$)
 
 Tukey HSD (Honestly Significant Difference) for pairwise comparisons.
 
-Authors
+## Authors
 
 This research and analysis is a collaborative work by:
 
