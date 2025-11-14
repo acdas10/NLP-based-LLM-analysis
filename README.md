@@ -1,6 +1,6 @@
-NLP-Based LLM Analysis
+# NLP-Based LLM Analysis
 
-Overview
+# Overview
 
 This repository contains the code and analysis data for the research paper "An NLP-Based Evaluation of LLM Across Creativity, Factual Accuracy, Open-Ended and Technical Explanations".
 
@@ -16,13 +16,8 @@ Technical Explanation (e.g., blockchain technology)
 
 Using a combination of statistical and linguistic metrics, this project quantifies the quality, readability, and reliability of AI-generated text.
 
-Repository Structure
+## Repository Structure
 
-The analysis is divided into stages corresponding to the methodology described in the research.
-
-File Name
-
-Description
 
 Response analysis-stage_1.ipynb
 
@@ -85,5 +80,6 @@ Nasa, Q.N.T., & Das, A.C. (2025). An NLP-Based Evaluation of LLM Across Creativi
 Requirements
 
 To run the notebooks, you will need the following Python libraries:
-
+```bash
 pip install nltk textblob scikit-learn textstat language-tool-python matplotlib seaborn
+```
